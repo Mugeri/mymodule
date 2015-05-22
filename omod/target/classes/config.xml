@@ -12,7 +12,8 @@
 		Helps to start writing OpenMRS modules
 	</description>
 	<updateURL>https://modules.openmrs.org/modules/download/patientlist/update.rdf</updateURL>
-	<require_version>1.8.2</require_version>
+	<require_version>1.8.2</require_version>\
+
 	<!-- / Module Properties -->
 
 	
@@ -48,6 +49,8 @@
 		<file>messages_es.properties</file>
 	</messages>
 	<!-- /Internationalization -->
-
+	<require_modules>
+		<require_module version="${idgenVersion}">org.openmrs.module.idgen</require_module>
+	</require_modules>
 </module>
 

@@ -1,9 +1,10 @@
+
 <%@ include file="/WEB-INF/template/include.jsp"%>
 <%@ include file="/WEB-INF/template/header.jsp"%>
 
 <%@ include file="template/localHeader.jsp"%>
 
-<table class="table table-bordered table-responsive table-hover">
+<table>
     <thead>
     <tr>
         <th>First Name</th>
